@@ -1,0 +1,72 @@
+.App {
+  background-image: url('https://2.bp.blogspot.com/-SwW2z20x0LM/UwVwDfQydyI/AAAAAAAAIgA/OkYIYUPcW6Y/s1600/fondos-de-pantalla-1920x1080_06.jpg');
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator {
+  display: flex;
+  flex-flow: column wrap;
+  width: 30%;
+  height: 80%;
+}
+
+.screen {
+  height: 30%;
+  width: 460px;
+  font-size: 30pt;
+  border-radius: 2%;
+}
+
+.formulaScreen {
+  border: solid 2px black;
+  background: #ffffff;
+  height: 67%;
+  display: flex;
+  border-radius: 2%;
+}
+
+.entradaScreen {
+  border: solid 2px black;
+  height: 30%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;  
+  background: #ffffff;
+  border-radius: 2%;
+}
+
+.conteBotones {
+  align-self: center;
+  height: 70%;
+  width: 100%;
+  align-content: center;
+  background-color: rgb(16, 17, 20);
+}
+
+.boton {
+  border: solid 2px black;
+  margin: 1px;
+  width: 24%;
+  height: 20%;
+}
+
+#clear {
+  width: 48%;
+  border: solid 2px black;
+}
+
+#equals {
+  border: solid 2px black;
+  width: 49%;
+}
+
+#zero {
+  border: solid 2px black;
+  width: 48%;
+}
