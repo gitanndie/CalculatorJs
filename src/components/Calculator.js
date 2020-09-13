@@ -29,5 +29,4 @@ let Calculator = ({ handleClick, principalDisplay, secondaryDisplay }) => {
         </section>
     )
 }
-
 export default Calculator;
